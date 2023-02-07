@@ -4,9 +4,8 @@ describe('Triangle', () => {
   
   describe('color', () => {
     it('should render color when render method is called', () => {
-      const color = "blue"
       const shape = new Triangle();
-      shape.setColor(color);
+      shape.setColor("blue");
       expect(shape.render()).toEqual('<polygon points="150, 18 244, 182 56, 182" fill="blue" />');
 
     });

@@ -4,9 +4,8 @@ describe('Circle', () => {
   
     describe('color', () => {
       it('should render color when render method is called', () => {
-        const color = "blue"
         const shape = new Circle();
-        shape.setColor(color);
+        shape.setColor("blue");
         expect(shape.render()).toEqual('<circle cx="150" cy="100" r="80" fill="blue" />');
   
       });
