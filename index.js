@@ -4,7 +4,7 @@ const cli = new CLI();
 
 cli.run() 
 .then(function(data){
-    console.log("SVG generated")
+    console.log("Generated logo.svg")
 })
 .catch(function(err){
     console.log(err)

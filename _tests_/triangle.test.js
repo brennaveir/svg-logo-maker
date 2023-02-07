@@ -19,7 +19,7 @@ describe('Triangle', () => {
         it('should render color when render method is called', () => {
             const shape = new Triangle();
             shape.setColor("blue");
-            expect(shape.render()).toEqual('<polygon points="150, 18 244, 182 56, 182" fill="blue" />');
+            expect(shape.render()).toEqual('<polygon points="150, 0 300, 200 10, 200" fill="blue" />');
 
         });
         it('should return formation', () => {
