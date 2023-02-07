@@ -5,15 +5,15 @@ describe('Circle', () => {
     describe('color', () => {
 
         it('should return characters', () => {
-            const character = "ABK"
+            const character = "ABC"
             const shape = new Circle(character);
-            expect(shape.characters).toEqual(character);
+            expect(shape.characters).toEqual("ABC");
 
         });
         it('should return text color', () => {
             const textColor = "purple"
-            const shape = new Circle("BKV", textColor);
-            expect(shape.textColor).toEqual(textColor);
+            const shape = new Circle("ABC", textColor);
+            expect(shape.textColor).toEqual("purple");
 
         });
         it('should render color when render method is called', () => {
@@ -24,8 +24,8 @@ describe('Circle', () => {
         });
         it('should return formation', () => {
             const formation = "circle"
-            const shape = new Circle("BKV", "blue", "pink", formation);
-            expect(shape.formation).toEqual(formation);
+            const shape = new Circle("ABC", "blue", "pink", formation);
+            expect(shape.formation).toEqual("circle");
 
         });
     });
