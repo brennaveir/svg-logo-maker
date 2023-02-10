@@ -23,7 +23,7 @@ This application is a command line application that can be initiated by typing n
 
 [![Screenshot1](./screenshots/Screenshot_3.png)
 
-[Watch a video tutorial here!](https://drive.google.com/file/d/14aiVzhjMfJfAG7arAqZVpv_7MXZDpK71/view)
+[Watch a video tutorial here!](https://drive.google.com/file/d/1ph4E9ubNs7hPF3ZjIEjEFwbf7b9f2paC/view)
 
 
 ## Contributors
